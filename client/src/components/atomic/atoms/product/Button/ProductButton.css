@@ -1,0 +1,24 @@
+.product-button {
+    border-radius: 20px;
+    background-color: black;
+    border: 1px solid;
+    height: 45px;
+    color: white;
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.product-button:hover {
+    background-color: #919090;
+    transition: 300ms;
+}
+
+@media (max-width: 768px) {
+    .product-button {
+        height: 55px;
+        font-size: 20px;
+    }
+}

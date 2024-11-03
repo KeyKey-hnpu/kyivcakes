@@ -1,0 +1,21 @@
+.product-quantity-selector-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 13px;
+    margin-top: 15px;
+    height: 22px;
+}
+
+.product-quantity-selector-elements{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .product-quantity-selector-container{
+        padding: 8px;
+    }
+}
